@@ -1,0 +1,86 @@
+#formulario
+{
+    margin:10px;
+    position:relative;
+    left: 330px;
+    height: 170px;
+    width:400px;
+    border: 10px double black;
+    padding:20px;
+}
+
+#balon img
+{
+    width:80px;
+    height: 80px;
+}
+
+#cuerpo
+{
+    height: 670px;
+}
+
+#anim
+{
+    border: solid 1px #000;
+    position:absolute;
+    left:25%;
+    top: 540px;
+    width: 575px;
+    height: 350px;
+    padding: 0px 20px;
+}
+
+#balon
+{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top:10px;
+    left:10px;
+
+    animation-name:anim1;
+    animation-duration:4s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction:alternate;
+
+    -webkit-animation-name:anim1;
+    -webkit-animation-duration:4s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction:alternate;
+
+    -moz-animation-name:anim1;
+    -moz-animation-duration:4s;
+    -moz-animation-timing-function: linear;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-direction:alternate;
+}
+
+@keyframes anim1
+{
+    20% {top:280px; left: 100px; transform:rotate(60deg);}
+    40% {top:5px; left: 200px; transform:rotate(120deg);}
+    60% {top:310px; left: 300px; transform:rotate(180deg);}
+    80% {top:5px; left: 500px; transform:rotate(300deg);}
+    100% {top:20px; left: 0px; transform:rotate(360deg);}
+}
+
+@-webkit-keyframes anim1
+{
+    20% {top:280px; left: 100px; transform:rotate(60deg);}
+    40% {top:5px; left: 200px; transform:rotate(120deg);}
+    60% {top:310px; left: 300px; transform:rotate(180deg);}
+    80% {top:5px; left: 500px; transform:rotate(300deg);}
+    100% {top:20px; left: 0px; transform:rotate(360deg);}
+}
+
+@-moz-keyframes anim1
+{
+    20% {top:280px; left: 100px; transform:rotate(60deg);}
+    40% {top:5px; left: 200px; transform:rotate(120deg);}
+    60% {top:310px; left: 300px; transform:rotate(180deg);}
+    80% {top:5px; left: 500px; transform:rotate(300deg);}
+    100% {top:20px; left: 0px; transform:rotate(360deg);}
+}

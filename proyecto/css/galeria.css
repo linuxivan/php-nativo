@@ -1,0 +1,25 @@
+h1 {
+    text-align: center;
+    color: white;
+}
+.galeria{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: baseline;
+    align-content: stretch;
+}
+.imagen-gal{
+    margin: 10px;
+}
+.imagen-gal img{
+    height: 300px;
+    width:  auto;
+    transition: transform .5s;
+    border-radius: 6px;
+
+}
+.imagen-gal :hover{
+    transform: scale(1.2);
+}

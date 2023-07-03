@@ -1,0 +1,34 @@
+
+h2
+{
+    color: red;
+}
+
+
+span
+{
+    color: rgb(128, 1, 187);
+}
+
+.genero
+{
+    margin:3px;
+    padding:5px;
+}
+
+.juego
+{
+    margin-top:5px;
+    padding-left:10px;
+    border-top:solid 3px black;
+    border-right: dotted 2px black;
+    border-radius: 10px;
+}
+
+.portadaJuego
+{
+    height: 114px;
+    width: 100px;
+    float: left;
+    margin-right: 15px;
+}

@@ -1,0 +1,49 @@
+video
+{
+    width:320px;
+    height: 240px;
+}
+
+table, th, td
+{
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px;
+}
+
+th 
+{
+    text-align: center;
+    background-color: #722424;
+    color:white;
+}
+
+.impar
+{
+    background-color: #c7f4c3;
+}
+
+.par 
+{
+    background-color: #2e4c2b;
+    color:white;
+}
+
+.carro
+{
+    width:50px;
+    height: 50px;
+    border:1px solid black;
+    border-radius: 20px;
+    padding:15px;
+    background-color: #5b92b7;
+    opacity: 0.6;
+    transition:1s;
+    cursor:pointer;
+}
+
+.carro:hover
+{
+    opacity: 1;
+    box-shadow: 1px 1px 25px 10px #888888;
+}

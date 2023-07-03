@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Chakra+Petch&display=swap');
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Chakra Petch', sans-serif;
+    background-color: black;
+
+}
+
+
+.dropdwn{
+    margin: 0 auto;
+
+}
+nav{
+    height: 100px;
+    background-color: rgb(27, 27, 27);
+    box-shadow: 0 10px 15px rgba(red, green, rgb(13, 13, 14), alpha);
+}
+.logo{
+    padding: 10px 20px  100px;
+    width: 200px;
+    height: auto;
+}
+nav ul{
+    padding: 0;
+    margin: 0;
+    float: right;
+    margin-right: 30px ;
+    margin-top: 20px;
+}
+nav ul li{
+    position: relative;
+    list-style: none;
+    display: inline-block;
+}
+nav ul li a{
+    display: block;
+    padding: 0 15px;
+    color: white;
+    text-decoration: none;
+    line-height: 60px;
+    font-size: 20px;
+}
+nav ul li a:hover{
+    color: grey;
+}
+nav ul ul{
+    position: absolute;
+    top: 40px;
+    display: none;
+}
+nav ul li:hover > ul{
+    display: block;
+}
+nav ul ul li{
+    width: 190px;
+    float: none;
+    display: list-item;
+    position: relative;
+    background-color: rgb(27, 27, 27);
+}
+footer{
+    background-color: rgb(9, 9, 9);
+    position: relative;
+    left: 0;
+    bottom: 0;
+    height: 80px;
+    width: 100%;
+    text-align: center;
+}
+footer ul{
+    list-style: none;
+}
+footer ul li{
+    padding-left: 30px;
+    padding-right: 30px;
+
+    margin-top: 30px;
+    display: inline-block;
+
+}
+footer ul li a{
+    text-decoration: none;
+    color: white;    
+}
+footer ul li a:hover{
+    color: rgb(0, 204, 255);    
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+

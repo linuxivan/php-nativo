@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JuegAlmi</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/comun.css">
+    <link rel="stylesheet" type="text/css" href="css/recomendaciones.css">
+    <link href="https://fonts.googleapis.com/css2?family=Grechen+Fuemen&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div id="encabezado">
+        <h1 id="tituloWeb">JuegAlmi</h1>
+        <a href="index.html"><img id="logo" src="images/raton.png" alt="Logo con ratón" /></a>
+        <div id="menu">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li>
+                    <a href="generos.html">Generos</a>
+                    <ul>
+                        <li><a href="rpg.html">RPG</a></li>
+                        <li><a href="estrategia.html">Estrategia</a></li>
+                        <li><a href="deportes.html">Deportes</a></li>
+                    </ul>
+                </li>
+                <li class="seleccionado"><a href="recomendaciones.html">Recomendaciones</a></li>
+            </ul>
+        </div>
+    </div>
+    <div id="cuerpo">
+        <h1>Recomendaciones</h1>
+        <div id="elementosFiltro">
+            <label for="filtro">Filtro</label>
+            <input type="text" id="filtro" name="" value="">
+            <select id="selectFiltro">
+                <option value="nombre" selected>Nombre</option>
+                <option value="precio">Precio</option>
+                <option value="compania">Compañia</option>
+            </select>
+            <input type="button" id="Filtrar" value="Filtrar">
+            <input type="button" id="VacialFiltro" value="Vacial Filtro">
+        </div>
+        <table id="tablaRecomendaciones">
+            <tr>
+                <th>Nombre</th>
+                <th>Compañía</th>
+                <th>Argumento</th>
+                <th>Gameplay</th>
+                <th>Precio</th>
+                <th>Comprar</th>
+            </tr>
+            <tr class="impar">
+                <td>Witcher 3</td>
+                <td>CD Projekt</td>
+                <td>Bienvenido al Chiquito Ipsum, el generador de texto de relleno para tus diseños de antes de los
+                    dolores.
+                    Dale a "Fistrum" para que te salga ese pedaso de texto Chiquito en estado puro. Si te crees muy
+                    moderno dale a "Latin" que te lo pongo con cuarto y mitad de romanooo...
+                    Jarl!!
+                </td>
+                <td>
+                    <video controls>
+                        <source src="videos/wit3.mp4" type="video/mp4" />
+                        <source src="videos/wit3.avi" type="video/avi" />
+                    </video>
+
+                </td>
+                <td>25.15€</td>
+                <td>
+                    <span class="glyphicon glyphicon-shopping-cart carro"></span>
+                </td>
+            </tr>
+            <tr class="par">
+                <td>Age Of Empires</td>
+                <td>Microsoft</td>
+                <td>Bienvenido al Chiquito Ipsum, el generador de texto de relleno para tus diseños de antes de los
+                    dolores.
+                    Dale a "Fistrum" para que te salga ese pedaso de texto Chiquito en estado puro. Si te crees muy
+                    moderno dale a "Latin" que te lo pongo con cuarto y mitad de romanooo...
+                    Jarl!!
+                </td>
+                <td>
+                    <iframe width="320" height="240" src="https://www.youtube.com/embed/OQ5x4AMvaYI"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr class="impar">
+                <td>NBA 2K22</td>
+                <td>2K Games</td>
+                <td>Bienvenido al Chiquito Ipsum, el generador de texto de relleno para tus diseños de antes de los
+                    dolores.
+                    Dale a "Fistrum" para que te salga ese pedaso de texto Chiquito en estado puro. Si te crees muy
+                    moderno dale a "Latin" que te lo pongo con cuarto y mitad de romanooo...
+                    Jarl!!
+                </td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+    </div>
+    <div id="pie">
+        <div id="rrss">
+            <span>Síguenos en redes sociales</span>
+            <img class="iconosSociales" src="images/instagram.png" alt="icono instagram" />
+            <img class="iconosSociales" src="images/twitter.png" alt="icono twitter" />
+            <img class="iconosSociales" src="images/tiktok.png" alt="icono tiktok" />
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/controltabla.js"></script>
+</body>
+
+</html>

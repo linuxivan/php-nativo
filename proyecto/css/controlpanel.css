@@ -1,0 +1,74 @@
+table {
+    color: white;
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border-top: 3px solid rgb(255, 255, 255);
+    border-bottom: 3px solid rgb(255, 255, 255);
+    font-size: 20px;
+    background-color: rgb(9, 9, 9);
+
+}
+
+td {
+    padding: 20px;
+    border-top: 1px solid rgb(255, 255, 255);
+    text-align: center;
+}
+
+td img{
+    cursor: pointer;
+}
+
+.boton2 a {
+    text-decoration: none;
+    text-decoration: wavy;
+    color: white;
+    background-color: rgb(0, 0, 255);
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 2px;
+}
+
+.boton2 a:hover {
+
+    background-color: rgb(62, 62, 255);
+}
+
+thead th:nth-child(1) {
+    width: 18%;
+}
+
+thead th:nth-child(2) {
+    width: 20%;
+}
+
+thead th:nth-child(3) {
+    width: 8%;
+}
+thead th:nth-child(4) {
+    width: 8%;
+}
+h1 {
+    text-align: center;
+    color: white;
+}
+
+
+.fa-magnifying-glass{
+    color: white;
+}
+
+.busqueda{
+    margin-top: -50px;
+    position: absolute;
+    right: 10px;
+}
+.busqueda input{
+    height: 30px;
+    width: 300px;
+    font-size: 20px;
+}
+
